@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ecc29a;
+    color: #f5f6fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: #cc7523;
+    border-bottom: 2px solid #ecc29a;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+header h1 {
+    color: #f5f6fa;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.navbar-toggler {
+    background-color: #ecc29a;
+    border: none;
+}
+
+.navbar-nav .nav-link {
+    color: #f5f6fa;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #ecc29a;
+}
+
+.carousel-item {
+    position: relative;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.carousel-caption h2 {
+    background-color: #cc7523;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.8rem;
+}
+
+.carousel-indicators button {
+    background-color: #cc7523;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+section {
+    padding: 4rem 0;
+    background: #f5f6fa;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #cc7523;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.card.product {
+    background: #f5f6fa;
+    border: 1px solid #ecc29a;
+    border-radius: 8px;
+    transition: transform 0.3s
+}
+
+.card.product:hover {
+    transform: translateY(-10px);
+}
+
+.card-header {
+    background: #cc7523;
+    border-bottom: px solid #cc7523;
+    color: #f5f6fa;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.card img {
+    padding: 0px;
+    transition: transform 0.3s;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body h4 {
+    font-size: 1.4rem;
+    color: #cc7523;
+    margin-bottom: 10px;
+}
+
+.card-footer {
+    background: #ecc29a;
+    border-top: 2px solid #cc7523;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-footer .btn-success {
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card-footer .btn-success:hover {
+    background: #cc7523;
+}
+
+footer {
+    background: #cc7523;
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #f5f6fa;
+    border-top: 2px solid #ecc29a;
+}

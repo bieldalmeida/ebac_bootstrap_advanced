@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>RECEITAS</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#salgados">SALGADOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#doces">DOCES</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+        <div id="carousel-exemplo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100 img-limit-height" src="https://images.pexels.com/photos/744780/pexels-photo-744780.jpeg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Compartilhe seus pratos com seus amigos!</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100 img-limit-height" src="https://images.pexels.com/photos/277253/pexels-photo-277253.jpeg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Aprenda sobre os melhores temperos!</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100 img-limit-height" src="https://images.pexels.com/photos/918328/pexels-photo-918328.jpeg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Escolha os melhores ingredientes!</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="carousel-control-prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="salgados">
+            <h2>Salgados</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4  col-md-6">
+                        <div class="card product">
+                            <div class="card-header">
+                                <strong>Hamburger and Fries</strong>
+                            </div>
+                            <img src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Descrição:</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur autem perferendis sint voluptate adipisicing elit.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success">Aprender</button>
+                            </div>
+                        </div>
+                        <div style="height: 20px;"></div>
+                    </div>
+                    <div class="col-lg-4  col-md-6">
+                        <div class="card product">
+                            <div class="card-header">
+                                <strong>Steak Food</strong>
+                            </div>
+                            <img src="https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Descrição:</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur autem perferendis sint voluptate adipisicing elit.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success">Aprender</button>
+                            </div>
+                        </div>
+                        <div style="height: 20px;"></div>
+                    </div>
+                    <div class="col-lg-4  col-md-6">
+                        <div class="card product">
+                            <div class="card-header">
+                                <strong>Grilled Meat Dish Served on White Plate</strong>
+                            </div>
+                            <img src="https://images.pexels.com/photos/361184/asparagus-steak-veal-steak-veal-361184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Descrição:</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur autem perferendis sint voluptate adipisicing elit.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success">Aprender</button>
+                            </div>
+                        </div>
+                        <div style="height: 20px;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="doces">
+            <h2>Doces</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4  col-md-6">
+                        <div class="card product">
+                            <div class="card-header">
+                                <strong>Churros With Powdered Sugar</strong>
+                            </div>
+                            <img src="https://images.pexels.com/photos/372851/pexels-photo-372851.jpeg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Descrição:</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur autem perferendis sint voluptate adipisicing elit.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success">Aprender</button>
+                            </div>
+                        </div>
+                        <div style="height: 20px;"></div>
+                    </div>
+                    <div class="col-lg-4  col-md-6">
+                        <div class="card product">
+                            <div class="card-header">
+                                <strong>Strawberries</strong>
+                            </div>
+                            <img src="https://images.pexels.com/photos/1132558/pexels-photo-1132558.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Descrição:</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur autem perferendis sint voluptate adipisicing elit.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success">Aprender</button>
+                            </div>
+                        </div>
+                        <div style="height: 20px;"></div>
+                    </div>
+                    <div class="col-lg-4  col-md-6">
+                        <div class="card product">
+                            <div class="card-header">
+                                <strong>Cake With Berries on Plate</strong>
+                            </div>
+                            <img src="https://images.pexels.com/photos/827513/pexels-photo-827513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Descrição:</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur autem perferendis sint voluptate adipisicing elit.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success">Aprender</button>
+                            </div>
+                        </div>
+                        <div style="height: 20px;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        2024 &copy Receitas Gabriel D'Almeida - Todos os direitos reservados
+    </footer>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
